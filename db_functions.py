@@ -3,7 +3,7 @@ def connect_to_db():
     return mysql.connector.connect(
     host="localhost",
     user="root",
-    password="1234",
+    password="",
     database="new_schema",
     allow_local_infile=True,
     # Add these two lines below:
