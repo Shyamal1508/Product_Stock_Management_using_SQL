@@ -44,6 +44,33 @@ Update the connection string in app.py with your credentials.
 Run the App:
 streamlit run app.py
 
+📝 Detailed Project Description
+The Product Stock Management System is a full-stack data application designed to streamline inventory control for small to medium-sized businesses. It replaces manual spreadsheet tracking with a centralized SQL database and a high-performance Python interface.
+
+1. Unified Data Management
+The system acts as a "Single Source of Truth." Instead of scattered files, all product information—including IDs, descriptions, pricing, and real-time stock counts—is stored in a structured relational database. This ensures data consistency and prevents errors like duplicate entries or lost records.
+
+2. Real-Time CRUD Operations
+The application allows users to perform core database actions directly through the web UI without writing a single line of code:
+
+Create: Add new product lines to the warehouse.
+
+Read: Fetch instant details about specific items or categories.
+
+Update: Modify stock levels immediately after a sale or restock.
+
+Delete: Remove discontinued items while maintaining database integrity.
+
+3. Dynamic Data Visualization
+Using the power of Streamlit, the project transforms raw SQL tables into visual insights. It includes:
+
+Low-Stock Alerts: Automatically highlights items that fall below a certain threshold to prevent out-of-stock scenarios.
+
+Inventory Overview: A birds-eye view of total stock value and quantity across different categories.
+
+4. The Technical Bridge
+The core value of this project lies in its Integration Logic. It demonstrates how to securely connect a Python application to an external SQL Server using connection strings and executing optimized queries to ensure the application remains fast even as the dataset grows.
+
 Dataset
 The dataset used for this project involves product IDs, stock counts, and categories.
 
